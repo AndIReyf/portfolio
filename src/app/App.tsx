@@ -4,6 +4,8 @@ import {Header} from "../header/Header";
 import {Main} from "../main/Main";
 import {Skills} from "../skills/Skills";
 import {Work} from "../work/Work";
+import {Contact} from "../contact/Contact";
+import {Footer} from "../footer/Footer";
 
 export function App() {
     return (
@@ -12,6 +14,8 @@ export function App() {
             <Main/>
             <Skills/>
             <Work/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }

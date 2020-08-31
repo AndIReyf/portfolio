@@ -1,0 +1,19 @@
+.nav{
+  composes: container from '../index.scss';
+  display: flex;
+
+  .list{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    li{
+      font-size: 18px;
+      color: #fff;
+
+      &+li{
+        margin-left: 15px;
+      }
+    }
+  }
+}

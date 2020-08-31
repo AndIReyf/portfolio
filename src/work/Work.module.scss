@@ -1,0 +1,78 @@
+.work {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #393939;
+  color: #fff;
+
+  .workGallery {
+    display: flex;
+    margin: 0 -10px;
+
+    .workDescription {
+      padding: 0 10px;
+
+      .workImg {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+
+        &:hover {
+          a {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        a {
+          position: absolute;
+          background-color: rgba(#222, .6);
+          color: #ffffff;
+          font-size: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          visibility: hidden;
+          opacity: 0;
+          transition: visibility .3s, opacity .3s;
+        }
+      }
+
+      .workBox {
+        width: 300px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 20px;
+        background-color: #222222;
+
+        .title {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+
+        .description {
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.workTitle {
+  composes: title from '../index.scss';
+  margin-bottom: 30px;
+}
+
+.workGallery {
+  composes: container from '../index.scss';
+}

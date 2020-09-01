@@ -14,7 +14,8 @@ export function WorkDescription(props: PropsType) {
             title: 'Title 2',
             description: 'Description 2 Description 2 Description 2 Description 2 Description 2',
             imgUrl: w2
-        }
+        },
+        {id: 3, title: 'Title 3', description: 'Description 3', imgUrl: w1}
     ]
 
     return (

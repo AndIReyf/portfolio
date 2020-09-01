@@ -6,10 +6,16 @@
 
   .workGallery {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 -10px;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
 
     .workDescription {
       padding: 0 10px;
+      margin-bottom: 10px;
 
       .workImg {
         position: relative;

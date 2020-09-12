@@ -1,18 +1,21 @@
-.nav{
+.nav {
   composes: container from '../index.scss';
   display: flex;
+  height: 100%;
 
-  .list{
+  .list {
     margin-left: auto;
     display: flex;
     align-items: center;
 
-    li{
-      font-size: 18px;
-      color: #fff;
-
-      &+li{
+    li {
+      & + li {
         margin-left: 15px;
+      }
+
+      a {
+        font-size: 18px;
+        color: #fff;
       }
     }
   }

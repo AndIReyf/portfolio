@@ -1,4 +1,11 @@
 .header{
   min-height: 50px;
-  background-color: rgba(#222, .8);
+  background-color: rgba(#222, .5);
+}
+.headerWrapper{
+  composes: container from '../index.scss';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }

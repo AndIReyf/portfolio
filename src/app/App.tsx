@@ -12,7 +12,7 @@ export function App() {
     return (
         <div className={style.app}>
             <Header/>
-            <Route exact path={'/portfolio'} render={() => <Main/>}/>
+            <Route exact path={'/'} render={() => <Main/>}/>
             <Route path={'/skills'} render={() => <Skills/>}/>
             <Route path={'/work'} render={() => <Work/>}/>
             <Route path={'/contacts'} render={() => <Contact/>}/>

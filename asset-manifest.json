@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.db8d1149.chunk.css",
-    "main.js": "/portfolio/static/js/main.ce61fb0a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ce61fb0a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.aa693d93.chunk.css",
+    "main.js": "/portfolio/static/js/main.406f9a54.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.406f9a54.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b449097c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b449097c.js.map",
-    "static/js/2.1424c1b2.chunk.js": "/portfolio/static/js/2.1424c1b2.chunk.js",
-    "static/js/2.1424c1b2.chunk.js.map": "/portfolio/static/js/2.1424c1b2.chunk.js.map",
+    "static/js/2.23e6b2ed.chunk.js": "/portfolio/static/js/2.23e6b2ed.chunk.js",
+    "static/js/2.23e6b2ed.chunk.js.map": "/portfolio/static/js/2.23e6b2ed.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e9acbc58234dc97a13a93537c94553a5.js": "/portfolio/precache-manifest.e9acbc58234dc97a13a93537c94553a5.js",
+    "precache-manifest.9c09944d7c469c74d3444078efa0a2c0.js": "/portfolio/precache-manifest.9c09944d7c469c74d3444078efa0a2c0.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.db8d1149.chunk.css.map": "/portfolio/static/css/main.db8d1149.chunk.css.map",
-    "static/js/2.1424c1b2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1424c1b2.chunk.js.LICENSE.txt",
+    "static/css/main.aa693d93.chunk.css.map": "/portfolio/static/css/main.aa693d93.chunk.css.map",
+    "static/js/2.23e6b2ed.chunk.js.LICENSE.txt": "/portfolio/static/js/2.23e6b2ed.chunk.js.LICENSE.txt",
     "static/media/avatar.jpeg": "/portfolio/static/media/avatar.c3f042ec.jpeg",
+    "static/media/font-style.css": "/portfolio/static/media/icomoon.cfff0290.ttf",
     "static/media/logo-javascript.svg": "/portfolio/static/media/logo-javascript.891a71b9.svg",
     "static/media/react.svg": "/portfolio/static/media/react.4009eef3.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.aa0a3376.svg",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b449097c.js",
-    "static/js/2.1424c1b2.chunk.js",
-    "static/css/main.db8d1149.chunk.css",
-    "static/js/main.ce61fb0a.chunk.js"
+    "static/js/2.23e6b2ed.chunk.js",
+    "static/css/main.aa693d93.chunk.css",
+    "static/js/main.406f9a54.chunk.js"
   ]
 }

@@ -39,7 +39,25 @@
 .icon-times:before {
     content: "\f00d";
 }
+.icon-github:before {
+    content: "\f09b";
+}
 .icon-list-ul:before {
     content: "\f0ca";
+}
+.icon-linkedin:before {
+    content: "\f0e1";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-skype:before {
+    content: "\f17e";
+}
+.icon-whatsapp:before {
+    content: "\f232";
+}
+.icon-telegram:before {
+    content: "\f2c6";
 }
 

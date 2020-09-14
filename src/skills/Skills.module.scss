@@ -1,22 +1,8 @@
 .skills {
   position: relative;
-  background-color: #fff;
+  background-color: #ebf5fc;
   padding-bottom: 50px;
   padding-top: 50px;
-  color: #ffffff;
-
-  &::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #222222;
-    border-left: 50vw solid #393939;
-    box-shadow: 0 0 10px 0 #222222;
-    border-right: 50vw solid #393939;
-    border-bottom: 50px solid #222222;
-  }
 
   .title {
     margin-bottom: 30px;
@@ -34,13 +20,18 @@
     .skillDescription {
       margin-bottom: 10px;
       padding: 20px;
-      background-color: #393939;
-      border-radius: 5px;
+      background-color: #ebf5fc;
+      box-shadow: -6px -6px 20px rgba(#fff, 1), 6px 6px 20px rgba(#000, .1);
+      border-radius: 40px;
       display: flex;
       flex-direction: column;
       align-items: center;
       max-width: 300px;
       width: 100%;
+
+      &:hover {
+        box-shadow: inset -6px -6px 10px rgba(#fff, .5), inset 6px 6px 20px rgba(#000, .05);
+      }
 
       .skillImg {
         width: 50px;
@@ -57,6 +48,14 @@
 
       .skillTitle {
         margin-bottom: 20px;
+        color: #32a3b1;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-align: center;
+      }
+
+      .skillText{
+        color: #32a3b1;
       }
     }
   }
@@ -66,7 +65,6 @@
   composes: container from '../index.scss';
 }
 
-.skillTitle,
 .title {
   composes: title from '../index.scss';
 }

@@ -6,7 +6,7 @@ import redux from '../img/redux.svg'
 
 type PropsType = {}
 
-export function SkillDescription(props: PropsType) {
+export function SkillCard(props: PropsType) {
 
     const skills = [
         {id: 1, skill: 'JavaScript', imgUrl: js, description: 'Some txt'},
@@ -22,8 +22,10 @@ export function SkillDescription(props: PropsType) {
                         <div className={style.skillImg}>
                             <img src={s.imgUrl} alt={s.skill}/>
                         </div>
-                        <div className={style.skillTitle}>{s.skill}</div>
-                        <div className={style.skillText}>{s.description}</div>
+                        <div className={style.skillContent}>
+                            <h3 className={style.skillTitle}>{s.skill}</h3>
+                            <p className={style.skillText}>{s.description}</p>
+                        </div>
                     </div>
                 ))
             }

@@ -23,14 +23,18 @@ export function WorkDescription(props: PropsType) {
             {
                 works.map(w => (
                     <div key={w.id} className={style.workDescription}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                         <div className={style.workImg}>
                             <img src={w.imgUrl} alt={w.title}/>
-                            <a href="/">Show details</a>
                         </div>
-                        <div className={style.workBox}>
-                            <div className={style.title}>{w.title}</div>
-                            <div className={style.description}>{w.description}</div>
+                        <div className={style.workInfo}>
+                            <h3 className={style.title}>{w.title}</h3>
+                            <p className={style.description}>{w.description}</p>
                         </div>
+                        <a href="/">Demo</a>
                     </div>
                 ))
             }
